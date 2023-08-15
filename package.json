@@ -1,0 +1,30 @@
+{
+  "name": "project-dailydiet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "test": "npx vitest",
+    "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/cookie": "^9.0.4",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.21.0",
+    "knex": "^2.5.1",
+    "sqlite3": "^5.1.6",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "@types/supertest": "^2.0.12",
+    "supertest": "^6.3.3",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6",
+    "vitest": "^0.34.1"
+  }
+}
